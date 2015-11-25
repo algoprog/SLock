@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SLock Settings"
+        android:id="@+id/title"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:layout_marginTop="47dp"
+        android:fontFamily="sans-serif-light"
+        android:background="#00ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Set gesture"
+        android:id="@+id/set"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="34dp"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Disable gesture"
+        android:id="@+id/reset"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/set"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Lock now"
+        android:id="@+id/lock"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/reset"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="About"
+        android:id="@+id/about"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/lock"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Exit"
+        android:id="@+id/exit"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="25sp"
+        android:layout_below="@+id/about"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

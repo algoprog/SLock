@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nodeflop.slock.ScreenLockActivity">
+
+    <com.nodeflop.slock.DrawingView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gview"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DRAW TO UNLOCK"
+        android:id="@+id/lmsg"
+        android:layout_marginBottom="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:00"
+        android:id="@+id/time"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="90sp"
+        android:fontFamily="sans-serif-light"
+        android:background="#00ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday October 5"
+        android:id="@+id/date"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="43%"
+        android:id="@+id/batteryLevel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#00961a" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/charge_cable"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:src="@drawable/usb"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="37dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/wifi"
+        android:src="@drawable/wifi"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:id="@+id/bluetooth"
+        android:src="@drawable/bluetooth"
+        android:layout_marginRight="83dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

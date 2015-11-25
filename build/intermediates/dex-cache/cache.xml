@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Chris\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Chris\Desktop\ScreenLock-Android-master1\app\build\intermediates\pre-dexed\debug\library-2.4.0-9d95ce6c3be5b89f3b34ccb242b2c25ebbb804ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\Chris\Desktop\ScreenLock-Android-master1\app\build\intermediates\exploded-aar\com.github.adnan-SM\TimelyTextView\1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="abb1771865050acc6b92cc363ada94e44f514f48">
+        <dex dex="C:\Users\Chris\Desktop\ScreenLock-Android-master1\app\build\intermediates\pre-dexed\debug\classes-35aa251f43e2a42601fd38f322f273fb9c1a5a79.jar" />
+    </item>
+
+</items>
