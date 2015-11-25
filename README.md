@@ -17,3 +17,7 @@ where:
 What we get from this formula is a measure of distance between the two sets in pixels. If this distance is above a predefined threshold then the gesture in accepted as correct.
 
 
+# Known issues
+
+The app has a strange bug possibly related to the lock mechanism that disables the home button. After a few minutes of leaving the device locked (~10min) the app crashes. Anyone who fixes this bug will become a collaborator. Also the app will be uploaded to Google Play as soon as this bug is fixed.
+
